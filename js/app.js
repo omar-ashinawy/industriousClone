@@ -15,6 +15,7 @@ closeBtn.forEach(function (element) {
     element.addEventListener("click", function () {
         menu.style.right = "-317px";
         menuBtn.checked = false;
-        console.log("clicked");
+        // console.log("clicked");
     });
 });
+console.log(document.getElementById("video").style.left);
